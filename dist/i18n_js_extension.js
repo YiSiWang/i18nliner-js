@@ -1,4 +1,6 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+
+},{}],2:[function(require,module,exports){
 (function () {
 	'use strict';
 
@@ -100,8 +102,6 @@
 	module.exports.direct = crcDirect;
 	module.exports.table = crcTable;
 }());
-
-},{}],2:[function(require,module,exports){
 
 },{}],3:[function(require,module,exports){
 module.exports = require('./lib/speakingurl');
@@ -1851,7 +1851,7 @@ var CallHelpers = {
 
 exports.default = CallHelpers;
 
-},{"./i18nliner":8,"./pluralize":9,"./utils":10,"crc32":1,"speakingurl":3}],6:[function(require,module,exports){
+},{"./i18nliner":8,"./pluralize":9,"./utils":10,"crc32":2,"speakingurl":3}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -2046,7 +2046,7 @@ var I18nliner = {
 
 exports.default = I18nliner;
 
-},{"fs":2}],9:[function(require,module,exports){
+},{"fs":1}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
